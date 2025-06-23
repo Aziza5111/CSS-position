@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.square-father {
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  height: 100px;
+  width: 200px;
+}
+
+.r-square {
+  background-color: red;
+  border: 1px solid red;
+}
+
+.g-square {
+  background-color: green;
+  border: 1px solid green;
+  left: 756px;
+}
+
+.y-square {
+  left: 756px;
+  background-color: yellow;
+  border: 1px solid yellow;
+  top: 377px;
+}
+
+.b-square {
+  background-color: blue;
+  border: 1px solid blue;
+  top: 377px;
+}
+
+.small-box {
+  position: relative;
+}
+
+.small {
+  position: absolute;
+  height: 20px;
+  width: 40px;
+}
+
+.s-red {
+  background-color: red;
+  border: 1px solid red;
+  left: 200px;
+  top: 100px;
+}
+
+.s-green {
+  background-color: green;
+  border: 1px solid green;
+  left: 716px;
+  top: 100px;
+}
+
+.s-blue {
+  background-color: blue;
+  border: 1px solid blue;
+  left: 200px;
+  top: 357px;
+}
+
+.s-yellow {
+  background-color: yellow;
+  border: 1px solid yellow;
+  left: 715px;
+  top: 357px;
+}
+
+.center-box {
+  background-color: rgb(226, 43, 156);
+  border: 1px solid rgb(226, 43, 165);
+  left: 460px;
+  top: 230px;
+}
