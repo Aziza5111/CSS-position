@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+
+body {
+  background-color: rgb(47, 1, 15);
+  /* width: 900px;
+  height: 300px; */
+}
+
+.box {
+  border: 2px solid rgb(255, 255, 252);
+  width: 1000px;
+  height: 500px;
+  background-color: rgb(47, 1, 15);
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.position {
+  position: relative;
+}
+
+.square {
+  width: 240px;
+  height: 200px;
+  font-family: "Courier New", Courier, monospace;
+  border: 3px solid rgb(26, 7, 26);
+  background-color: rgb(250, 200, 250);
+  font-weight: bolder;
+  font-size: 20px;
+  color: rgb(26, 7, 26);
+  text-align: center;
+  padding-top: 85px;
+}
+
+.rectangular {
+  width: 430px;
+  height: 230px;
+  font-family: "Courier New", Courier, monospace;
+  border: 3px solid rgb(26, 7, 26);
+  background-color: rgb(250, 200, 250);
+  color: rgb(26, 7, 26);
+  font-weight: 900;
+  text-align: center;
+  padding-top: 90px;
+  font-size: 20px;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(238, 238, 75);
+  font-weight: 900;
+  font-size: 25px;
+  padding-left: 700px;
+}
+
+.static {
+  position: static;
+  bottom: 5px;
+}
+
+.relative {
+  position: relative;
+  bottom: 130px;
+  left: 400px;
+  padding: 30px, 20px;
+  z-index: 2;
+}
+
+.fixed {
+  position: fixed;
+  top: 410px;
+  left: -1px;
+}
+
+.absolute {
+  position: absolute;
+  top: 310px;
+  left: 260px;
+}
+
+.sticky {
+  position: sticky;
+  bottom: 70px;
+  left: 1900px;
+  z-index: 1;
+}
