@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flag-div {
+  position: relative;
+}
+
+.blue {
+  border: 1px solid blue;
+  background-color: rgb(7, 137, 180);
+  height: 200px;
+  width: 1400px;
+}
+
+.white {
+  border: 1px solid white;
+  background-color: white;
+  height: 200px;
+  width: 1400px;
+}
+
+.green {
+  border: 1px solid green;
+  background-color: green;
+  height: 200px;
+  width: 1400px;
+}
+
+.red {
+  border: 1px solid red;
+  background-color: red;
+  height: 10px;
+  width: 1400px;
+}
+
+.moon {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.b-moon {
+  position: absolute;
+  top: 30px;
+  left: 80px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(7, 137, 180);
+  border-radius: 50%;
+}
+
+.stars {
+  height: 100px;
+  width: 70px;
+  position: absolute;
+  left: 290px;
+
+  gap: 35px;
+  color: white;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.stars-2 {
+  height: 100px;
+  width: 70px;
+  position: absolute;
+  left: 235px;
+  top: 55px;
+  gap: 35px;
+  color: white;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.stars-3 {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 180px;
+  top: 109px;
+  gap: 35px;
+  color: white;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
